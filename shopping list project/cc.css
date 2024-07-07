@@ -1,0 +1,139 @@
+body{
+	
+	background-color: whitesmoke	;
+
+}
+
+.navv{
+	/*	display: grid;*/
+	grid-template-rows:1fr 5fr 4fr;
+	grid-template-columns:  1fr ;
+	grid-gap: 20px;
+	
+
+}
+.topp{
+	
+	display: flex;
+	background-color: lightgreen;
+	height:10vh;
+
+}
+.sticky{
+	position: fixed;
+	top:0;
+	width: 100%;
+
+}
+.push-right{
+	margin-left: auto;
+	display:flex;
+}
+
+
+button{
+	background-color: lightgreen;
+	border:2px solid lightgreen;
+
+}
+
+.bodyy{
+	
+	background-image:url("nuga.jpg") ;
+	display: flex;
+	flex-direction: column	;
+	justify-content: center	;
+	align-items: center;
+	
+	height: 90vh;
+}
+#button{
+	border-radius: 100px;
+}
+
+.idk{
+	background-color: wheat;
+	border-radius: 100px;
+	text-shadow: darkblue;
+}
+.objects{
+
+	background-color: lightgreen;
+    padding: 20px;
+    width: fit-content;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 100px;
+
+}
+.odj1,.odj2{
+	display: flex;
+	justify-content: center;
+	align-items: center	;
+	background-color: #7D8ABC;
+	border: 4px #3FA2F6;
+	border-radius: 60px;
+	height: 90px;
+	width: 200px;
+	transform: scale(1.05) 2s ;
+	grid-template-columns: 	1/3;
+transition: transform 0.3s ease, background-color 0.3s ease;
+	margin: 20px 20px 20px ;
+
+}
+.odj1:hover{
+
+	 transform: rotate(-5deg) scale(1.04);
+
+            background-color: #6a5acd;
+}
+.odj2:hover{
+	transform: rotate(5deg) scale(1.04);
+	background-color: #6a5acd;
+}
+
+.first:hover,.second:hover,.third:hover,.fourth:hover{
+	color: black	;
+	background-color: ghostwhite	;
+	border-radius: 100px;
+	transform: 	scale(1.04)s ;
+	
+}
+
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+:root {
+  --card-height: 65vh;
+  --card-width: calc(var(--card-height) / 1.5);
+}
+
+.element{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+}
+.btnn{
+
+	background-color: #565695;
+	width: 150px;
+	border-radius: 100px;
+	border:2px solid brown;
+	transform: scale(1.03) 1s;
+}
+.btnn:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
